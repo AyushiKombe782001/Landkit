@@ -1,0 +1,195 @@
+.btn-outline-success{
+    background-color: #f64d52;
+    color: white;
+    padding: 19px 28px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 700;
+    display: inline-block;
+    border: 0;
+    line-height: inherit;
+    text-decoration: none;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+.nav-link{
+    padding-right: 10px;
+    transition: opacity 200ms ease;
+    font-size: 17px;
+    line-height: 17px;
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    padding: 22px 120px 20px 20px;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.btn2{
+    opacity: 1;
+    transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    transform-style: preserve-3d;
+    padding: 10px 22px;
+    border-radius: 30px;
+    background-color: #f64d52;
+    color: #fff;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    box-sizing: border-box;
+    display: block;
+    text-align: center;
+    line-height: 20px;
+    font-family: 'DM Sans', sans-serif;
+    position: absolute;
+    top: 20%;
+    left: 45%;
+}
+
+.slogan{
+    opacity: 1;
+    transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    transform-style: preserve-3d;
+    color: #fff;
+    font-size: 70px;
+    margin: .67em 0;
+    text-align: center;
+    font-family: 'DM Sans', sans-serif;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    line-height: 70px;
+    font-weight: bold;
+    padding: 125px;
+}
+
+
+.column {
+  float: left;
+  width: 33%;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {
+    margin: 0 -5px;
+    margin-left: 10px;
+    margin-bottom: 16px;
+    align-items: center;
+    border-radius: 5px;
+    text-align: center;
+    font-family: 'DM Sans', sans-serif;
+    color: #111;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 700;
+    display: flex;
+    padding-top: 10px;
+    padding-right: 32px;
+    padding-left: 32px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  text-align: center;
+  background-color: #f1f1f1;
+}
+
+.card-2 {
+    padding: 30px;
+}
+
+.card-4 {
+    padding: 30px;
+}
+
+.card-3 {
+    padding: 30px;
+}
+
+.card-5 {
+    padding: 30px;
+}
+
+.card-back {
+    width: 1240px;
+    height: 1000px;
+}
+
+.column-7{
+    padding: 30px;
+}
+
+.column-8{
+    padding: 30px;
+}
+
+.column-9{
+    padding: 30px;
+}
+
+
+.column-10{
+    width: 50%;
+}
+
+.column-11{
+    width: 50%;
+}
+
+.column-13{
+    width: 65%;
+    font-size: 17px;
+}
+
+.column-15{
+    width: 65%;
+    font-size: 17px;
+}
+
+.column-17{
+    width: 65%;
+    font-size: 17px;
+}
+
+.column-12{
+    align-items: center;
+    color: #2e856e;
+    font-size: 44px;
+    line-height: 46px;
+}
+
+.column-14{
+    align-items: center;
+    color: #2e856e;
+    font-size: 44px;
+    line-height: 46px;
+}
+
+.column-16{
+    align-items: center;
+    color: #2e856e;
+    font-size: 44px;
+    line-height: 46px;
+}
